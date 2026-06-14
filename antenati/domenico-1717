@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domenico Nicola Cardiello</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+
+<header>
+<h1>DOMENICO</h1>
+
+<p class="subtitle">
+1717 – 1759<br>
+Casale San Pietro
+</p>
+
+<nav>
+<a href="../index.html">Home</a>
+<a href="../linea.html">La Linea Cardiello</a>
+<a href="../antenati.html">Gli Antenati</a>
+<a href="../ricerca.html">Ricerca e Curatela</a>
+</nav>
+
+<div class="hero-note">
+<p class="quote">
+Primo antenato della linea documentato anche nel Catasto Onciario.
+</p>
+</div>
+</header>
+
+<main>
+
+<h2>Dati principali</h2>
+
+<table>
+<tr><th>Nome</th><td>Domenico Nicola Cardiello</td></tr>
+<tr><th>Nascita</th><td>17 febbraio 1717</td></tr>
+<tr><th>Morte</th><td>20 marzo 1759</td></tr>
+<tr><th>Luogo principale</th><td>Casale San Pietro</td></tr>
+<tr><th>Padre</th><td>Vito Cardiello</td></tr>
+<tr><th>Madre</th><td>Angela Spenella</td></tr>
+<tr><th>Coniuge</th><td>Rosa Bracco</td></tr>
+<tr><th>Professione</th><td>Bracciale</td></tr>
+<tr><th>Figli documentati</th><td>4</td></tr>
+<tr><th>Linea esposta</th><td>prosegue attraverso Antonio Giuseppe Angelo Cardiello</td></tr>
+</table>
+
+<h2>Biografia</h2>
+
+<p>
+Domenico Nicola Cardiello nacque il 17 febbraio 1717 a Casale San Pietro,
+figlio di Vito Cardiello e Angela Spenella.
+È il primo antenato della linea paterna per il quale, oltre ai registri
+parrocchiali, è disponibile anche una fonte fiscale.
+</p>
+
+<p>
+Il Catasto Onciario lo qualifica come “bracciale”, termine che indicava
+un lavoratore agricolo o bracciante. La famiglia abitava in casa propria
+nella località Piede Casale, elemento che suggerisce una modesta stabilità
+abitativa all'interno del borgo.
+</p>
+
+<h2>Famiglia</h2>
+
+<h3>Rosa Bracco</h3>
+
+<table>
+<tr><th>Nome</th><td>Rosa Bracco</td></tr>
+<tr><th>Nascita</th><td>circa 1729</td></tr>
+</table>
+
+<h2>Figli documentati</h2>
+
+<table>
+<tr><th>Nome</th><th>Anno</th></tr>
+<tr><td>Delia Angela Antonia</td><td>1747</td></tr>
+<tr><td>Margherita Finizia</td><td>1750–1750</td></tr>
+<tr><td>Antonio Giuseppe Angelo</td><td>1753–1785</td></tr>
+<tr><td>Pietro Nicola</td><td>1757</td></tr>
+</table>
+
+<h2>Professione e condizione sociale</h2>
+
+<p>
+La qualifica di “bracciale” colloca Domenico Nicola nel mondo del lavoro
+agricolo del Regno di Napoli. La presenza nel Catasto Onciario consente
+di conoscere non solo la sua professione, ma anche alcuni elementi della
+condizione abitativa e familiare.
+</p>
+
+<h2>Luoghi</h2>
+
+<p>
+La famiglia risiedeva a Casale San Pietro, nella località Piede Casale.
+Questo dato proviene dal Catasto Onciario e rappresenta una delle prime
+informazioni topografiche precise relative alla linea Cardiello.
+</p>
+
+<h2>Fonti</h2>
+
+<ul>
+<li>Archivio della Chiesa di San Pietro al Tanagro</li>
+<li>Registri battesimali</li>
+<li>Registri matrimoniali</li>
+<li>Registri dei morti</li>
+<li>Catasto Onciario</li>
+</ul>
+
+<h2>Note genealogiche</h2>
+
+<p>
+Domenico Nicola costituisce un passaggio importante nella ricostruzione
+della famiglia perché permette di collegare la documentazione ecclesiastica
+a quella fiscale. La linea esposta prosegue attraverso il figlio
+Antonio Giuseppe Angelo Cardiello.
+</p>
+
+</main>
+
+<footer>
+<p>Archivio Genealogico Cardiello</p>
+<p>Maiores pennas nido</p>
+</footer>
+
+</body>
+</html>
