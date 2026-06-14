@@ -229,3 +229,28 @@ th{
   border-color:var(--gold);
   background:#fff6e4;
 }
+@media (max-width: 768px){
+
+  nav{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    max-width:420px;
+    margin:34px auto 0;
+  }
+
+  nav a:last-child{
+    grid-column:1 / span 2;
+    text-align:center;
+  }
+
+}
+@media (max-width: 768px){
+
+  nav a{
+    display:block;
+    text-align:center;
+    padding:12px 16px;
+  }
+
+}
