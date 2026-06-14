@@ -138,10 +138,17 @@ th{
   width:180px;
   height:220px;
   object-fit:cover;
+
   border-radius:12px;
+
   border:1px solid var(--gold);
+
   margin:0 auto 20px;
+
   display:block;
+
+  box-shadow:0 12px 30px rgba(0,0,0,.12);
+}
 }
 .ancestor{
   display:block;
@@ -182,12 +189,22 @@ th{
 }
 
 .gen{
-  display:inline-block;
+  display:block;
+
+  width:fit-content;
+
+  margin:0 auto 15px;
+
   border:1px solid var(--gold);
+
   color:var(--gold);
+
   border-radius:999px;
+
   padding:4px 12px;
+
   font-size:13px;
+
   letter-spacing:1px;
 }
 
