@@ -229,40 +229,53 @@ th{
   border-color:var(--gold);
   background:#fff6e4;
 }
-@media (max-width: 768px){
+@media (max-width:768px){
 
   header{
-    padding:48px 22px 30px;
+    padding:50px 20px 30px;
   }
 
   h1{
-    font-size:42px;
-    letter-spacing:3px;
+    font-size:56px;
+    letter-spacing:2px;
+    line-height:0.95;
     text-align:center;
   }
 
   .subtitle{
-    font-size:18px;
     text-align:center;
+    font-size:18px;
   }
 
   nav{
     display:flex;
     flex-direction:column;
     align-items:center;
-    gap:12px;
-    margin-top:32px;
+    gap:14px;
+    margin-top:35px;
   }
 
   nav a{
+    display:block;
     width:100%;
-    max-width:330px;
+    max-width:320px;
+
+    padding:14px 20px;
+
     text-align:center;
-    padding:13px 18px;
+    text-decoration:none;
+
     border:1px solid var(--gold);
     border-radius:12px;
-    background:rgba(255,250,242,.78);
-    box-shadow:0 8px 20px rgba(60,40,15,.05);
+
+    background:#1f1b16;
+    color:#fffaf2;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+  }
+
+  .quote{
+    font-size:20px;
   }
 
 }
