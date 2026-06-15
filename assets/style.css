@@ -300,13 +300,14 @@ button:hover{
     padding:35px 20px 60px;
   }
 
-  h1{
-    font-size:56px;
-    letter-spacing:2px;
-    line-height:.95;
-    text-align:center;
-    word-break:break-word;
-  }
+ h1{
+  font-size:42px;
+  letter-spacing:1px;
+  line-height:1;
+  text-align:center;
+  word-break:normal;
+  overflow-wrap:normal;
+}
 
   .subtitle{
     text-align:center;
