@@ -30,6 +30,11 @@ main{
   padding:45px 28px 80px;
 }
 
+main p{
+  text-align: justify;
+  hyphens: auto;
+}
+
 footer{
   max-width:1100px;
   margin:0 auto;
