@@ -85,6 +85,58 @@ const pages = [
     url: "antenati/nicola-1960.html",
     text: "Nicola Cardiello Anna Maria Albano Pastificio Pezzullo Battipaglia Eboli 1960 2007"
   }
+
+{
+  title: "Ramo di Innocenzio Cardiello",
+  url: "ramo-innocenzio.html",
+  text: "Innocenzio Cardiello Agata Mangieri ramo pubblicato Eboli Casale San Pietro discendenza"
+},
+{
+  title: "Ramo di Andrea Cardiello",
+  url: "ramo-andrea.html",
+  text: "Andrea Cardiello Teresa Pecora Piecoro Martino Anna Chiara Bernardo Antonio Nicola Gerardo Nicola Bernardo Diodato Francesco Giuseppe Antonio"
+},
+{
+  title: "Ramo di Giovanni Battista Cardiello",
+  url: "ramo-giovanni-battista.html",
+  text: "Giovanni Battista Cardiello Marta Di Giulio Anna Vittoria Carlo Antonio Camilla Catarina"
+},
+{
+  title: "Ramo di Carlo Cardiello",
+  url: "ramo-carlo.html",
+  text: "Carlo Cardiello Genua Mangieri Olimpia Elisabetta Margarita Giovanni Maria Simone Angelo Antonio Giovanello"
+},
+{
+  title: "Ramo di Francesco Cardiello",
+  url: "ramo-francesco.html",
+  text: "Francesco Cardiello Antonia Di Benedetto Olimpia Natale Cesare"
+},
+{
+  title: "Ramo di Ercole Cardiello",
+  url: "ramo-ercole.html",
+  text: "Ercole Cardiello Maddalena Mele Elisabetta Faustina Giuseppe Antonio Brigitta Diego Antonio Aquila Caterina"
+},
+{
+  title: "Ramo di Giuseppe Cardiello",
+  url: "ramo-giuseppe.html",
+  text: "Giuseppe Cardiello Maria Pisana Diego Margarita Donata Isabella"
+},
+{
+  title: "Ramo di Domenico Cardiello",
+  url: "ramo-domenico.html",
+  text: "Domenico Cardiello Giovetta D'Alessio Andrea Angelo Carmine Carmosina Francesco Nicola Angela Antonia Pietro Matteo Brigitta Elisabetta Matteo Arsenio"
+},
+{
+  title: "Ramo di Giovanni Cardiello",
+  url: "ramo-giovanni.html",
+  text: "Giovanni Cardiello Caterina Spinella Pisano Pifano Lucrezia Porzia Maria Giuseppe Domenico Andrea Angelo Nicola Agnese Maria Nicola Ercole Francesco Antonio Angela"
+},
+{
+  title: "Ramo di Tomaso Cardiello",
+  url: "ramo-tomaso.html",
+  text: "Tomaso Cardiello Marta Spinella Margarita Faustina Antonia Caterina Marco Antonio Angelo Carmine Angela Giuditta"
+}
+  
 ];
 
 function searchSite(){
