@@ -84,7 +84,7 @@ const pages = [
     title: "Nicola Cardiello",
     url: "antenati/nicola-1960.html",
     text: "Nicola Cardiello Anna Maria Albano Pastificio Pezzullo Battipaglia Eboli 1960 2007"
-  }
+  },
 
 {
   title: "Ramo di Innocenzio Cardiello",
