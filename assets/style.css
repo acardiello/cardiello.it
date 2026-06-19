@@ -459,6 +459,15 @@ button:hover{
   background:transparent;
   border-radius:1px;
 }
+.genealogy-tree li.gen5 > span::before{
+  content:"☆";
+  width:auto;
+  height:auto;
+  border:0;
+  color:var(--gold);
+  font-size:18px;
+  background:none;
+}
 
 /* migliore leggibilità su schermi piccoli */
 @media (max-width:768px){
