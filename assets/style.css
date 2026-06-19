@@ -366,7 +366,7 @@ button:hover{
   background:rgba(255,250,242,.78);
   border:1px solid var(--line);
   border-radius:18px;
-  padding:28px;
+  padding:34px;
   box-shadow:0 12px 30px rgba(60,40,15,.06);
   overflow-x:auto;
 }
@@ -374,7 +374,7 @@ button:hover{
 .genealogy-tree ul{
   list-style:none;
   margin:0;
-  padding-left:28px;
+  padding-left:36px;
   border-left:1px solid var(--line);
 }
 
@@ -384,16 +384,16 @@ button:hover{
 }
 
 .genealogy-tree li{
-  margin:15px 0;
+  margin:22px 0;
   position:relative;
 }
 
 .genealogy-tree li::before{
   content:"";
   position:absolute;
-  top:15px;
-  left:-28px;
-  width:18px;
+  top:18px;
+  left:-36px;
+  width:24px;
   border-top:1px solid var(--line);
 }
 
@@ -402,53 +402,93 @@ button:hover{
 }
 
 .genealogy-tree span{
-  display:inline-block;
-  font-size:18px;
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  font-size:24px;
+  line-height:1.25;
   color:var(--ink);
 }
 
 .genealogy-tree small{
   display:block;
+  margin-top:9px;
+  margin-left:32px;
   color:var(--muted);
-  font-size:14px;
-  margin-top:2px;
-  line-height:1.5;
+  font-size:17px;
+  line-height:1.55;
 }
 
+/* simbolo generazione */
 .genealogy-tree li > span::before{
   content:"";
-  display:inline-block;
-  width:10px;
-  height:10px;
-  margin-right:9px;
-  border:1px solid var(--gold);
-  vertical-align:middle;
+  flex:0 0 auto;
+  width:13px;
+  height:13px;
+  border:2px solid var(--gold);
 }
 
+/* capostipite: cerchio pieno */
 .genealogy-tree li.gen1 > span::before{
   border-radius:50%;
   background:var(--gold);
 }
 
+/* seconda generazione: quadrato vuoto */
 .genealogy-tree li.gen2 > span::before{
-  border-radius:2px;
+  border-radius:3px;
+  background:transparent;
 }
 
+/* terza generazione: triangolo pieno */
 .genealogy-tree li.gen3 > span::before{
   width:0;
   height:0;
-  border-left:6px solid transparent;
-  border-right:6px solid transparent;
-  border-bottom:11px solid var(--gold);
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom:16px solid var(--gold);
   border-top:0;
   background:none;
 }
 
+/* quarta generazione: rombo vuoto */
 .genealogy-tree li.gen4 > span::before{
+  width:13px;
+  height:13px;
   transform:rotate(45deg);
   background:transparent;
+  border-radius:1px;
 }
 
+/* migliore leggibilità su schermi piccoli */
+@media (max-width:768px){
+
+  .genealogy-tree{
+    padding:24px;
+  }
+
+  .genealogy-tree ul{
+    padding-left:28px;
+  }
+
+  .genealogy-tree li{
+    margin:20px 0;
+  }
+
+  .genealogy-tree li::before{
+    left:-28px;
+    width:18px;
+  }
+
+  .genealogy-tree span{
+    font-size:21px;
+  }
+
+  .genealogy-tree small{
+    margin-left:30px;
+    font-size:16px;
+  }
+}
 @media (max-width:768px){
 
   header{
@@ -510,26 +550,6 @@ button:hover{
 
 @media (max-width:768px){
 
-  .genealogy-tree{
-    padding:22px;
-  }
-
-  .genealogy-tree ul{
-    padding-left:22px;
-  }
-
-  .genealogy-tree li::before{
-    left:-22px;
-    width:14px;
-  }
-
-  .genealogy-tree span{
-    font-size:17px;
-  }
-
-  .genealogy-tree small{
-    font-size:13px;
-  }
 
 }
 }
