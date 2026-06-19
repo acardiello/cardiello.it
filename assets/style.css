@@ -469,6 +469,126 @@ button:hover{
   background:none;
 }
 
+/* Quinta generazione - stella a 5 punte */
+
+.genealogy-tree li.gen5 > span::before{
+  content:"★";
+  display:inline-block;
+  width:auto !important;
+  height:auto !important;
+  border:none !important;
+  background:none !important;
+  transform:none !important;
+  color:var(--gold);
+  font-size:18px;
+  line-height:1;
+}
+
+/* Sesta generazione - esagono vuoto */
+
+.genealogy-tree li.gen6 > span::before{
+  content:"⬡";
+  display:inline-block;
+  width:auto !important;
+  height:auto !important;
+  border:none !important;
+  background:none !important;
+  transform:none !important;
+  color:var(--gold);
+  font-size:18px;
+  line-height:1;
+}
+
+/* Settima generazione - esagono pieno */
+
+.genealogy-tree li.gen7 > span::before{
+  content:"⬢";
+  display:inline-block;
+  width:auto !important;
+  height:auto !important;
+  border:none !important;
+  background:none !important;
+  transform:none !important;
+  color:var(--gold);
+  font-size:18px;
+  line-height:1;
+}
+
+/* Ottava generazione - stella a 4 punte */
+
+.genealogy-tree li.gen8 > span::before{
+  content:"✦";
+  display:inline-block;
+  width:auto !important;
+  height:auto !important;
+  border:none !important;
+  background:none !important;
+  transform:none !important;
+  color:var(--gold);
+  font-size:18px;
+  line-height:1;
+}
+
+/* Nona generazione - stella vuota */
+
+.genealogy-tree li.gen9 > span::before{
+  content:"✧";
+  display:inline-block;
+  width:auto !important;
+  height:auto !important;
+  border:none !important;
+  background:none !important;
+  transform:none !important;
+  color:var(--gold);
+  font-size:18px;
+  line-height:1;
+}
+
+/* Decima generazione */
+
+.genealogy-tree li.gen10 > span::before{
+  content:"✪";
+  display:inline-block;
+  width:auto !important;
+  height:auto !important;
+  border:none !important;
+  background:none !important;
+  transform:none !important;
+  color:var(--gold);
+  font-size:18px;
+  line-height:1;
+}
+
+/* Undicesima generazione */
+
+.genealogy-tree li.gen11 > span::before{
+  content:"✫";
+  display:inline-block;
+  width:auto !important;
+  height:auto !important;
+  border:none !important;
+  background:none !important;
+  transform:none !important;
+  color:var(--gold);
+  font-size:18px;
+  line-height:1;
+}
+
+/* Dodicesima generazione */
+
+.genealogy-tree li.gen12 > span::before{
+  content:"✬";
+  display:inline-block;
+  width:auto !important;
+  height:auto !important;
+  border:none !important;
+  background:none !important;
+  transform:none !important;
+  color:var(--gold);
+  font-size:18px;
+  line-height:1;
+}
+
 /* migliore leggibilità su schermi piccoli */
 @media (max-width:768px){
 
