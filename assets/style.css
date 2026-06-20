@@ -59,6 +59,18 @@ h1{
   font-weight:normal;
 }
 
+.hero h1{
+  font-size:48px;
+  margin-bottom:10px;
+  text-align:center;
+  letter-spacing:1px;
+}
+
+.hero .subtitle{
+  text-align:center;
+  margin:0 auto;
+}
+
 h2{
   font-size:30px;
   margin-top:54px;
