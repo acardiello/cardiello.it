@@ -139,7 +139,7 @@ th{
 }
 
 .site-logo{
-    width:220px;
+    width:260px;
     height:auto;
     display:block;
     filter:drop-shadow(0 8px 20px rgba(0,0,0,.08));
@@ -159,7 +159,7 @@ th{
 
 .hero{
   max-width:900px;
-  margin:50px auto 40px;
+  margin:35px auto 35px;
   text-align:center;
 }
 
