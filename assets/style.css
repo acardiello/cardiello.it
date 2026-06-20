@@ -635,6 +635,45 @@ button:hover{
 /* migliore leggibilità su schermi piccoli */
 @media (max-width:768px){
 
+  .site-header{
+    padding:30px 20px;
+  }
+
+  .header-inner{
+    flex-direction:column;
+    gap:24px;
+  }
+
+  .site-logo{
+    width:180px;
+  }
+
+  .main-nav{
+    justify-content:center;
+    gap:16px;
+  }
+
+  .main-nav a{
+    font-size:14px;
+  }
+
+  .hero{
+    margin:35px auto 45px;
+    padding:0 22px;
+  }
+
+  .hero .quote{
+    font-size:24px;
+  }
+
+  .hero p:last-child{
+    font-size:16px;
+  }
+
+  main{
+    padding:35px 20px 60px;
+  }
+
   .genealogy-tree{
     padding:24px;
   }
@@ -660,46 +699,17 @@ button:hover{
     margin-left:30px;
     font-size:16px;
   }
-}
-@media (max-width:768px){
 
-  header{
-    padding:50px 20px 30px;
+  h1{
+    font-size:42px;
+    letter-spacing:1px;
+    line-height:1;
+    text-align:center;
   }
-
-  main{
-    padding:35px 20px 60px;
-  }
-
- h1{
-  font-size:42px;
-  letter-spacing:1px;
-  line-height:1;
-  text-align:center;
-  word-break:normal;
-  overflow-wrap:normal;
-}
 
   .subtitle{
     text-align:center;
     font-size:18px;
-  }
-
-.header-inner{
-  flex-direction:column;
-}
-
-.main-nav{
-  justify-content:center;
-  gap:18px;
-}
-
-.main-nav a{
-  font-size:14px;
-}
-
-  .quote{
-    font-size:20px;
   }
 
   .tree-photo{
@@ -710,10 +720,4 @@ button:hover{
   .ancestor h2{
     font-size:30px;
   }
-
-@media (max-width:768px){
-
-
-}
-}
 }
