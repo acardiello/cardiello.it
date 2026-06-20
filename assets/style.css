@@ -92,6 +92,8 @@ h3{
   padding-bottom:4px;
   border-bottom:1px solid transparent;
   transition:.25s;
+  letter-spacing:.3px;
+  font-size:15px;
 }
 
 .main-nav a:hover{
@@ -137,10 +139,10 @@ th{
 }
 
 .site-logo{
-  width:200px;
-  height:auto;
-  display:block;
-  filter:drop-shadow(0 8px 20px rgba(0,0,0,.08));
+    width:220px;
+    height:auto;
+    display:block;
+    filter:drop-shadow(0 8px 20px rgba(0,0,0,.08));
 }
 
 .logo-link{
@@ -157,7 +159,7 @@ th{
 
 .hero{
   max-width:900px;
-  margin:60px auto 90px;
+  margin:50px auto 40px;
   text-align:center;
 }
 
