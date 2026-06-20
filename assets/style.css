@@ -28,7 +28,6 @@ body{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:40px;
 }
 
 main{
@@ -137,7 +136,7 @@ th{
 }
 
 .site-logo{
-  width:180px;
+  width:140px;
   height:auto;
   display:block;
   filter:drop-shadow(0 8px 20px rgba(0,0,0,.08));
