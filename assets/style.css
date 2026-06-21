@@ -389,6 +389,23 @@ button:hover{
   color:var(--muted);
 }
 
+.photo-thumb{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+
+  border-radius:10px;
+  margin-bottom:18px;
+
+  border:1px solid #d4c0a0;
+
+  transition:all .3s ease;
+}
+
+.card:hover .photo-thumb{
+  transform:scale(1.03);
+}
+
 /* ==========================
    LEGENDA GENEALOGICA
    ========================== */
