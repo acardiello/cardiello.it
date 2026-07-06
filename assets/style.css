@@ -401,6 +401,69 @@ button:hover{
   transform:scale(1.03);
 }
 
+/* ===========================
+   CATasto Onciario
+=========================== */
+
+.catasto-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0 40px;
+  table-layout: fixed;
+  font-size: 0.98rem;
+}
+
+.catasto-table th {
+  text-align: left;
+  padding: 14px 16px;
+  border-top: 1px solid #d8c8aa;
+  border-bottom: 1px solid #d8c8aa;
+  color: #8c6b2d;
+  font-weight: 600;
+}
+
+.catasto-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e7dbc3;
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.catasto-table tr:last-child td {
+  border-bottom: 1px solid #d8c8aa;
+}
+
+.catasto-table th:nth-child(1),
+.catasto-table td:nth-child(1) {
+  width: 28%;
+}
+
+.catasto-table th:nth-child(2),
+.catasto-table td:nth-child(2) {
+  width: 18%;
+}
+
+.catasto-table th:nth-child(3),
+.catasto-table td:nth-child(3) {
+  width: 18%;
+}
+
+.catasto-table th:nth-child(4),
+.catasto-table td:nth-child(4) {
+  width: 36%;
+}
+
+.family-summary {
+  background: #faf8f4;
+  border-left: 4px solid #b68b33;
+  padding: 22px 28px;
+  margin: 40px 0;
+}
+
+.family-summary p {
+  margin: 8px 0;
+}
+
 /* ==========================
    LEGENDA GENEALOGICA
    ========================== */
