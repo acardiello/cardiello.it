@@ -464,6 +464,17 @@ button:hover{
   margin: 8px 0;
 }
 
+.catasto-table {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.catasto-table th,
+.catasto-table td {
+  box-sizing: border-box;
+}
+
 /* ==========================
    LEGENDA GENEALOGICA
    ========================== */
